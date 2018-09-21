@@ -33,8 +33,8 @@ uploadArchives {
   repositories {
     mavenDeployer {
       repository(
-        url: $nexus_url {  
-          authentication(userName: $userName, password: $password))
+        url: ${nexus_url} {  
+          authentication(userName: ${userName}, password: ${password}))
       }
                         pom.version = "0.1.0"
              pom.artifactId = "gs-gradle"
