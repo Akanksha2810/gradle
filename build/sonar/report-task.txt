@@ -1,0 +1,6 @@
+projectKey=gradle_project1-master
+serverUrl=http://localhost:9000/sonar
+serverVersion=6.7.5.38563
+dashboardUrl=http://localhost:9000/sonar/dashboard/index/gradle_project1-master
+ceTaskId=AWX6geD1N7AowtaJvauD
+ceTaskUrl=http://localhost:9000/sonar/api/ce/task?id=AWX6geD1N7AowtaJvauD

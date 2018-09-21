@@ -1,0 +1,3 @@
+
+shouldPrintTimeToConsoleç$
+shouldPrintHelloWorldToConsole
