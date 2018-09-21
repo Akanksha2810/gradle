@@ -5,6 +5,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 apply plugin: 'maven'
+apply plugin: 'maven-publish'
 
 mainClassName = 'hello.HelloWorld'
 
@@ -33,7 +34,7 @@ uploadArchives {
   repositories {
     mavenDeployer {
       repository(
-        url: ${nexus_url} {  
+        url: ${nexus_url}) {  
           authentication(userName: ${userName}, password: ${password})
       }
                         pom.version = "0.1.0"
